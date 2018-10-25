@@ -1,0 +1,29 @@
+.navbar--config{
+    background-color: $color-black;
+    .navbar-brand{
+        img{
+            width: 70px;
+        }
+        span{
+            font-size: $fs-2;
+            margin-left: $mg-3;
+            padding-right: $pd-1;
+        }
+    }
+    .navbar-nav{
+        .nav-item{
+            text-align: center;
+            margin-left: $mg-1;
+            .nav-link{
+                // color: $color-grey;
+                // font-size: $fs-1;
+                @include text($color-grey,$fs-1,$fw-normal);
+            }
+            &:hover{
+                .nav-link{
+                    color: $color-blue;
+                }
+            }
+        }
+    }
+}

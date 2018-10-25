@@ -1,0 +1,27 @@
+#carouselId{
+    .carousel-inner{
+        .carousel-caption{
+            bottom: unset;
+            right: unset;
+            top: $mg-5;
+            left: $mg-6;
+            text-align: left;
+            .line{
+                width: 80px;
+                height: 3px;
+                background-color: $color-white;
+                border-radius: 4px;
+            }
+            h1{
+                // font-size: $fs-4;
+                // color: $color-white;
+                // font-weight: $fw-normal;
+                @include text($color-white,$fs-4,$fw-normal);
+            }
+            .btn-read-more{
+                @include button($color-dark,$color-dark,$color-white,$pd-0 $pd-1,$color-white,$color-dark);
+                border-radius: 5px;
+            }
+        }
+    }
+}

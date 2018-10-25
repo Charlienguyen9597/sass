@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+.navbar--config {
+  background-color: black; }
+  .navbar--config .navbar-brand img {
+    width: 70px; }
+  .navbar--config .navbar-brand span {
+    font-size: 20px;
+    margin-left: 30px;
+    padding-right: 10px; }
+  .navbar--config .navbar-nav .nav-item {
+    text-align: center;
+    margin-left: 10px; }
+    .navbar--config .navbar-nav .nav-item .nav-link {
+      color: #999;
+      font-size: 15px;
+      font-weight: normal; }
+    .navbar--config .navbar-nav .nav-item:hover .nav-link {
+      color: #00adef; }
+
+#carouselId .carousel-inner .carousel-caption {
+  bottom: unset;
+  right: unset;
+  top: 50px;
+  left: 200px;
+  text-align: left; }
+  #carouselId .carousel-inner .carousel-caption .line {
+    width: 80px;
+    height: 3px;
+    background-color: white;
+    border-radius: 4px; }
+  #carouselId .carousel-inner .carousel-caption h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal; }
+  #carouselId .carousel-inner .carousel-caption .btn-read-more {
+    border: 2px solid #202020;
+    background-color: #202020;
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 5px 10px;
+    border-radius: 5px; }
+    #carouselId .carousel-inner .carousel-caption .btn-read-more:hover {
+      background-color: white;
+      color: #202020; }
+
+#product {
+  background-color: black;
+  padding: 30px; }
+  #product h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center; }
+  #product .nav {
+    width: fit-content;
+    margin: auto; }
+    #product .nav .nav-item {
+      background-color: #202020;
+      margin-left: 2px; }
+      #product .nav .nav-item .nav-link {
+        color: white;
+        border: none; }
+        #product .nav .nav-item .nav-link:hover, #product .nav .nav-item .nav-link.active {
+          border: none;
+          color: #00adef;
+          background-color: #202020; }
+  #product .nav-tabs {
+    border-bottom: none; }
+
+/*# sourceMappingURL=main.css.map */

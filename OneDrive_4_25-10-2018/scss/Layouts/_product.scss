@@ -1,0 +1,28 @@
+#product{
+    background-color: $color-black;
+    padding: $pd-3;
+    h1{
+        @include text($color-white,$fs-4 + 10,$fw-normal);
+        text-align: center;
+    }
+    .nav{
+        width: fit-content;
+        margin: auto;
+        .nav-item{
+            background-color: $color-dark;
+            margin-left: $mg-1 * 0.2;
+            .nav-link{
+                color: $color-white;
+                border: none;
+                &:hover,&.active{
+                    border: none;
+                    color: $color-blue;
+                    background-color: $color-dark;
+                }
+            }
+        }
+    }
+    .nav-tabs{
+        border-bottom: none;
+    }
+}
